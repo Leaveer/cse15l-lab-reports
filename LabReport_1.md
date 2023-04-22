@@ -25,14 +25,13 @@ I failed on remote due on the first try because I didn't open GitBash inside of 
 ![Image](Code.PNG)
 
 I run most of the codes successfully, but there are some problems happened at the last few codes. The files doesn't exist, so the last few codes didn't run successfully, tutor said we don't need to worry about it now.
-
-cd ~: change directory to root folder
-cd: change directory, since there are nothing behind then it didn't do anything
-ls -lat: List the files inside of lat
-ls -a: List the files inside of a
-ls <directory>: error, because I forgot to change the diection to the floder that has directory
-cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/ &
-cat /home/linux/ieng6/cs15lsp23/public/hello.txt: Both missing files, TA says no worry with that.
+  cd ~: change directory to root folder
+  cd: change directory, since there are nothing behind then it didn't do anything
+  ls -lat: List the files inside of lat
+  ls -a: List the files inside of a
+  ls <directory>: error, because I forgot to change the diection to the floder that has directory
+  cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/ &
+  cat /home/linux/ieng6/cs15lsp23/public/hello.txt: Both missing files, TA says no worry with that.
 
 ## Part 6 – git, Github, and Github Pages
 

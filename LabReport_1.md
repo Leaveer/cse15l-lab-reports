@@ -12,7 +12,7 @@ I created my account and transfer to CSE unique account, then reset password. I 
 
 ![Image](Capture.PNG)
 
-I tried to installed the Visual Studio and GitBash. But since I'm using the school's computer I don't need to install it. I used link[Link](https://code.visualstudio.com/) to download the Visual Studio and use[Link](https://gitforwindows.org/) to download the Git.
+I tried to installed the Visual Studio and GitBash. But since I'm using the school's computer I don't need to install it. I used thislink[Link](https://code.visualstudio.com/) to download the Visual Studio and use thislink[Link](https://gitforwindows.org/) to download the Git.
 
 ## Part 4 – Remotely Connecting
 
@@ -26,6 +26,7 @@ I failed on remote due on the first try because I didn't open GitBash inside of 
 
 I run most of the codes successfully, but there are some problems happened at the last few codes. The files doesn't exist, so the last few codes didn't run successfully, tutor said we don't need to worry about it now.
   cd ~: change directory to root folder
+  
   cd: change directory, since there are nothing behind then it didn't do anything
   
   ls -lat: List the files inside of lat

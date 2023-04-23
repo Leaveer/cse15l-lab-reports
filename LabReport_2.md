@@ -7,6 +7,7 @@ The bug I choose is the one makes me most confuse. After I fix the bug which ins
 ## Provide:
 
 1. A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown):
+
 ```
 ArrayExamles.java: 
 static int[] reversed(int[] arr) {
@@ -33,6 +34,7 @@ ArrayTests.java:
 ```
 
 2. An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown):
+
 ```
 ArrayExamles.java: 
 static int[] reversed(int[] arr) {
@@ -56,7 +58,6 @@ ArrayTests.java:
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 }
-
 ```
 
 3. The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above):
@@ -66,6 +67,7 @@ ArrayTests.java:
 4. The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown):
 
 Incorrect:
+
 ```
 public void testReverseInPlace1() {
     int[] input2 = { 1,2,3 };
@@ -81,6 +83,7 @@ public void testReverseInPlace1() {
 ```
 
 Correct:
+
 ```
 @Test
   public void testReverseInPlace1() {

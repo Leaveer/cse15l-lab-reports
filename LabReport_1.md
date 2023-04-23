@@ -26,7 +26,6 @@ I failed on remote due on the first try because I didn't open GitBash inside of 
 
 I run most of the codes successfully, but there are some problems happened at the last few codes. The files doesn't exist, so the last few codes didn't run successfully, tutor said we don't need to worry about it now.
   cd ~: change directory to root folder
-  
   cd: change directory, since there are nothing behind then it didn't do anything
   
   ls -lat: List the files inside of lat

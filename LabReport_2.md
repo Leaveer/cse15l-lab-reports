@@ -100,7 +100,7 @@ Correct:
 ```
 
 5. Briefly describe why the fix addresses the issue.:
-6. 
+
 The problem with this Code is the output of the ArrayExample.reversed didn’t be the input of assertArrayEquals correctly. The ArrayExample.reversed finished its job, but the assertArrayEqualsdidn’t took  ArrayExample.reversed’s output as input but took the original input as input. 
 
 

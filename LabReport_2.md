@@ -1,4 +1,54 @@
 # Part 1
+```
+import java.io.IOException;
+import java.net.URI;
+
+
+
+
+class Handler implements URLHandler {
+
+
+    String result;
+
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/add-message")) {
+            String[] parameters = url.getQuery().split("=");
+            result +='\n' +parameters[1];
+            return result;
+        }
+        else {
+            return "404 Not Found!";
+        }
+    }
+}
+
+
+class NumberServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+
+        int port = Integer.parseInt(args[0]);
+
+
+        Server.start(port, new Handler());
+    }
+}
+```
+![Image](1682399975357.jpg)
+My code use if to determine is the URL ask for add message, then use String to add them together.
+My method contains parameters which is "Hello", result is empty.
+And result is empty, being add '\n' and "Hello" into it, then return result.
+
+![Image](1682399967909.jpg)
+My code use if to determine is the URL ask for add message, then use String to add them together.
+My method contains parameters which is "How are you", result is "Hello".
+And result is "Hello", and being add '\n' and "How are you" into it, then become"Hello \n How are you", then finally return result
 
 
 # Part 2

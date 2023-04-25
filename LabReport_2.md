@@ -40,14 +40,22 @@ class NumberServer {
     }
 }
 ```
+
 ![Image](1682399975357.jpg)
+
 My code use if to determine is the URL ask for add message, then use String to add them together.
+
 My method contains parameters which is "Hello", result is empty.
+
 And result is empty, being add '\n' and "Hello" into it, then return result.
 
+
 ![Image](1682399967909.jpg)
+
 My code use if to determine is the URL ask for add message, then use String to add them together.
+
 My method contains parameters which is "How are you", result is "Hello".
+
 And result is "Hello", and being add '\n' and "How are you" into it, then become"Hello \n How are you", then finally return result
 
 

@@ -122,5 +122,5 @@ This code searched all documents under the technical that  match the "LICR", and
 
 This code searched all documents under the technical that  match the "Hopkins", and shows the files include the match string with the line number of the match string of each result of their files.
 
-I find all of my option/mode from this article: https://phoenixnap.com/kb/grep-command-linux-unix-examples This is a great website with lots of useful information!!
+I find all of my option/mode from this article: [How To Use grep Command In Linux/UNIX](https://phoenixnap.com/kb/grep-command-linux-unix-examples) This is a great website with lots of useful information!!
  

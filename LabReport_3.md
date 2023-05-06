@@ -82,7 +82,7 @@ This code searched all documents under the technical that  match the "LICR", but
 ```
 This code searched all documents under the technical that  match the "Hopkins", but only shows the file's name. And there are few matched files.
 
-## 4. “grep” can be use to show the line number of the matched files by add "-m" behind the grep,
+## 4. “grep” can be use to show the line number of the matched files by add "-n" behind the grep,
 
 ```
 [cs15lsp23bo@ieng6-202]:stringsearch-data:189$ grep -rn LICR ./technical

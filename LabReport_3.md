@@ -1,6 +1,6 @@
 # grep is an interesting tool. And I'm going to do 4 orders with it.
 
-## 1. “grep” can be use to find all subdirectories by add "-r" behind the grep,
+## 1. “grep” can be use to find all subdirectories by add "-r" behind the grep, for example, we have a datalog under the days files that under the months files that under the year file. If we want to find a file from the year without known the exactly dates and mothes, instead of search every files one-by-one, we can just use "-r" to search the year file. And it is useful for lots of cases, for any cases we want to find something to a file that inculdes other files and keep going on, "-r" could just search every underfile. And I use it a lot for examples after this first two cases.
 
 ```
 [cs15lsp23bo@ieng6-202]:stringsearch-data:168$ grep -r LICR ./technical
@@ -40,7 +40,7 @@ This code searched all documents under the technical that match "LICR".
 
 This code searched all documents under the technical that match "Hopkins"
 
-## 2. “grep” can be use to only show lines that exactly match the search string by add "-x" behind the grep,
+## 2. “grep” can be use to only show lines that exactly match the search string by add "-x" behind the grep. grep -x is different than grep, grep -x is focus on precise search, which means it will search the words that exactly match the input. For example, if I use grep to search "A", and my answer is "A";"A B";"A B C". If I use gre -x on that one, the result will only be "A". Same example as datalog, if every of my datalog has date on each line, and I only want to find the date itself without any other more data. grep -x will help me find the line only fit the date without the date in front and data in back.
 
 ```
 [cs15lsp23bo@ieng6-202]:stringsearch-data:183$ grep -rx LICR ./technical
@@ -55,7 +55,7 @@ This code searched all documents under the technical that exatcly match the "LIC
 
 This code searched all documents under the technical that exatcly match the "What If?". there is only one.
 
-## 3. “grep” can be use to only show the name of the matched files by add "-l" behind the grep,
+## 3. “grep” can be use to only show the name of the matched files by add "-l" behind the grep. This is really useful to find a data in some file. Same example, if I remember I wrote "apple" on one of my datalog, but I can't remember which one. And I don't care about what I wrote I just want to know when I wrote it. Then I could use -l to find the file name of the data which is the data I wrote it. I loos more clear. And the point is it is really usful to find something I remember I wrote it, but I can't remember where I wrote it, and I only care about where I wrote it. And also could be use on search very long matches to keep clean.
 
 ```
 [cs15lsp23bo@ieng6-202]:stringsearch-data:184$ grep -rl LICR ./technical
@@ -82,7 +82,7 @@ This code searched all documents under the technical that  match the "LICR", but
 ```
 This code searched all documents under the technical that  match the "Hopkins", but only shows the file's name. And there are few matched files.
 
-## 4. “grep” can be use to show the line number of the matched files by add "-n" behind the grep,
+## 4. “grep” can be use to show the line number of the matched files by add "-n" behind the grep. This is also usful to find where I wrote it problem. This "-n" is more sepefic on which line I wrote on which file. Sometimes I forgot where I wrote something. Same example, I want to know what date I wrote "apple' and where is "apple" in that date. "-n" could use on it to search the line number to check where it is inside the file to help me to determine some indormation. It is a really usful tool to give out detail information about the data location.
 
 ```
 [cs15lsp23bo@ieng6-202]:stringsearch-data:189$ grep -rn LICR ./technical

@@ -65,7 +65,10 @@ Then I enter ./test.sh ,end with<enter>. This is to run the test.sh under the cu
 ![Image](Report-4-8.png)
   
   
-First I enter git add ListExamples.java,end with<enter>. To add java file. Then I enter git commit -m "edited",end with<enter>. 
+First I enter git add ListExamples.java,end with<enter>. To add java file. 
   
 
-To commit it. Then I enter  git push origin main,end with<enter>. To push it. Finally with my username and password.
+Then I enter git commit -m "edited",end with<enter>.  To commit it. 
+  
+  
+Then I enter  git push origin main,end with<enter>. To push it. Finally with my username and password.

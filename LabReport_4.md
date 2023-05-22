@@ -16,6 +16,8 @@ First I eneter chmod +x test.sh , end with<enter> , this is add the executable p
 ## 7.Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge)
 ![Image](Report-4-5.png)
 First I enter vim ListExamples.java ,end with<enter>. This is to enter the vim mode of the file to make change
+  
+
 ![Image](Report-4-6.png)
 Then I enter 43j : to jump to the 43th line
 12l : to jump to the 12th characters

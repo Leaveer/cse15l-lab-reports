@@ -35,7 +35,7 @@ First I enter vim ListExamples.java ,end with<enter>. This is to enter the vim m
 Then I enter 43j : to jump to the 43th line
   
   
-12l : to jump to the 12th characters
+11l : to jump to the 12th characters
   
   
 x : to delete the current character

@@ -2,11 +2,11 @@
 ![Image](lab4-ex-1.png)
 
 
-I pressed ssh cse15lsp23bo@ieng6.ucsd.edu , and then I pressed <enter> . This time I directly log in without ask for password since I set the SSH key. The input is to show the account name I am tring to log in, then enter to ensure. 
+I pressed  ssh<space>cse15lsp23bo@ieng6.ucsd.edu , and then I pressed<enter>. This time I directly log in without ask for password since I set the SSH key. The input is to show the account name I am tring to log in, then enter to ensure. 
 
   
 ## 5.Clone your fork of the repository from your Github account
-![Image](Report-4-2.png)
+![Image](lab-4-ex-2.png)
   
   
 I preeesed git clone https://github.com/ucsd-cse15l-s23/lab7 , end with <enter>. This is to clone the files, since I have done this in the lab, it shows I already exists.

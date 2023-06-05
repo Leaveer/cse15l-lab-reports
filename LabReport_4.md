@@ -9,7 +9,7 @@ I pressed  ssh<space>cse15lsp23bo@ieng6.ucsd.edu , and then I pressed<enter>. Th
 ![Image](lab-4-ex-2.png)
   
   
-I pressed  git<space>clone<space>https://github.com/ucsd-cse15l-s23/lab7 , end with <enter>. It run the cloning and finish.
+I pressed  git<space>clone<space>git@github.com:Leaveer/lab7.git , end with <enter>. It run the cloning and finish.
   
   
 ## 6.Run the tests, demonstrating that they fail

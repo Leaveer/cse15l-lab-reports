@@ -2,7 +2,7 @@
 ![Image](lab4-ex-1.png)
 
 
-I pressed  ssh*<space>*cse15lsp23bo@ieng6.ucsd.edu , and then I pressed*<enter>*. This time I directly log in without ask for password since I set the SSH key. The input is to show the account name I am tring to log in, then enter to ensure. 
+I pressed  ssh< space>cse15lsp23bo@ieng6.ucsd.edu , and then I pressed*<enter>*. This time I directly log in without ask for password since I set the SSH key. The input is to show the account name I am tring to log in, then enter to ensure. 
 
   
 ## 5.Clone your fork of the repository from your Github account

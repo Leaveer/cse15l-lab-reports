@@ -55,10 +55,10 @@ esc : exist the edit mode
 < enter > to apply
   
 ## 8.Run the tests, demonstrating that they now succeed
-![Image](Report-4-7.png)
+![Image](lab-ex-5.png)
   
   
-Then I enter ./test.sh ,end with< enter >. This is to run the test.sh under the current file.
+Then I enter bash< space >test.sh ,end with< enter >. This is to run the test.sh, and got the ok tets.
   
 ## 9.Commit and push the resulting change to your Github account
 ![Image](lab4-ex-4.png)

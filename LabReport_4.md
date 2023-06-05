@@ -13,13 +13,13 @@ I pressed  git<space>clone<space>git@github.com:Leaveer/lab7.git , end with <ent
   
   
 ## 6.Run the tests, demonstrating that they fail
-![Image](Report-4-4.png)
+![Image](lab4-ex-3.png)
   
   
-First I eneter chmod +x test.sh , end with<enter> , this is add the executable permission to sh file, then run it. 
+First I eneter cd<space>lab7 , end with<enter> , this is to change the directory in to the file lab7, enter is to run it. 
   
   
-Then I enter ./test.sh , end with<enter> , to test. I came with ERROR. I also could us javac and java to test it.
+Then I enter bash<space>test.sh , end with<enter> , to test. I came with ERROR. I also could us javac and java to test it.
 
 
 ## 7.Edit the code file ListExamples.java to fix the failing test (as a reminder, the error in the code is just that index1 is used instead of index2 in the final loop in merge)

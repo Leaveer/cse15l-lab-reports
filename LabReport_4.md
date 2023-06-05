@@ -60,13 +60,16 @@ esc : exist the edit mode
 Then I enter ./test.sh ,end with<enter>. This is to run the test.sh under the current file.
   
 ## 9.Commit and push the resulting change to your Github account
-![Image](Report-4-8.png)
+![Image](lab4-ex-4.png)
   
   
-First I enter git add ListExamples.java,end with<enter>. To add java file. 
+First I enter git<space>add<space>ListExamples.java,end with<enter>. To add java file, since I have made the key and clone with ssh link, I don't need username and password in those steps. 
   
 
-Then I enter git commit -m "edited",end with<enter>.  To commit it. 
+Then I enter git<space>commit<space>-m<space>"edited",end with<enter>.  To commit it. 
   
   
-Then I enter  git push origin main,end with<enter>. To push it. Finally with my username and password.
+Then I enter git<space>status to check the status, make sure its changed.
+  
+  
+Then I enter  git<space>push ,end with<enter>. To push it.

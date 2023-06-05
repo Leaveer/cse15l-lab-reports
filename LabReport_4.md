@@ -55,7 +55,7 @@ esc : exist the edit mode
 < enter > to apply
   
 ## 8.Run the tests, demonstrating that they now succeed
-![Image](lab-ex-5.png)
+![Image](lab4-ex-5.png)
   
   
 Then I enter bash< space >test.sh ,end with< enter >. This is to run the test.sh, and got the ok tets.

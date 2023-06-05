@@ -9,7 +9,7 @@ I pressed  ssh<space>cse15lsp23bo@ieng6.ucsd.edu , and then I pressed<enter>. Th
 ![Image](lab-4-ex-2.png)
   
   
-I preeesed git clone https://github.com/ucsd-cse15l-s23/lab7 , end with <enter>. This is to clone the files, since I have done this in the lab, it shows I already exists.
+I pressed  git<space>clone<space>https://github.com/ucsd-cse15l-s23/lab7 , end with <enter>. It run the cloning and finish.
   
   
 ## 6.Run the tests, demonstrating that they fail

@@ -17,7 +17,7 @@ The picture of code is incomplete and it is blocked, and description is not deta
 ![Image](lab5-successcode.jpg)
 
 
-![Image](lab5-successex)
+![Image](lab5-successex.jpg)
 
 
 Thank you for the help, I apologize for the unclear description and picture. I have rechecked all of my loops, there is one have "+0" instead of "+1", therefore, the loop will never end since the value is not increasing.

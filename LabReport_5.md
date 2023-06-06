@@ -71,4 +71,4 @@ The index1 has been added 0 instead of add 1, therefore the value of index1 will
 # Part 2 – Reflection
 
 
-SSH Keys! I still can't totally understand how it works, but the way it set up beyond my knowlage. It is so interesting to trigger the password like that! I would like learn more way to trigger other things out of usual ways!
+SSH Keys! I still can't totally understand how it works, but the way it set up beyond my knowlage. It is so interesting to trigger the password like that! I would like learn more way to trigger other things out of usual ways! 

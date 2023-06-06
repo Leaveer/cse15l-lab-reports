@@ -71,4 +71,6 @@ The index1 has been added 0 instead of add 1, therefore the value of index1 will
 # Part 2 – Reflection
 
 
-SSH Keys! I still can't totally understand how it works, but the way it set up beyond my knowlage. It is so interesting to trigger the password like that! I would like learn more way to trigger other things out of usual ways! 
+SSH Keys! I still can't totally understand how it works, but the way it set up beyond my knowlage. It is so interesting to trigger the password like that! I would like learn more way to trigger other things out of usual ways! That is the coolest thing.
+
+Othere than that, I also learn a lot of other things, but the most important thing: debug. Debug is a hard problem and it always around coding. But from the recent learning, I become more skillful on debugging in bash, flow, application execution, error messages, and so on. And doing debug in lots of different environment and different situation with different files is complex but also rewarding!
